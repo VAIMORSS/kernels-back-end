@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "types/*": ["src/types/"],
+      "utils/*": ["src/utils/"],
+      "graphql/*": ["src/graphql/*"]
+    }
+  },
+  "lib": ["es2015"]
+}
